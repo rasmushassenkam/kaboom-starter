@@ -49,7 +49,7 @@ const createEsBuildServer = async () => {
   const NODE_PORT = 3000;
 
   build({
-    entryPoints: ["./src/app.tsx"],
+    entryPoints: ["./src/app.ts"],
     bundle: true,
     minify: false,
     loader: {
